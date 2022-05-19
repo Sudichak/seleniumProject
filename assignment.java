@@ -40,8 +40,8 @@ public class assignment {
 		Thread.sleep(2000); 
 
 		//increase quantity
-		// driver.findElement(By.xpath("//*[@id=\"quantity_wanted_p\"]/a[2]/span/i")).click();
-		//Thread.sleep(2000); 
+		driver.findElement(By.xpath("//*[@id=\"quantity_wanted_p\"]/a[2]/span/i")).click();
+		Thread.sleep(2000); 
 
 		//dropdown of size
 		Select size = new Select(driver.findElement(By.id("group_1")));
@@ -54,8 +54,8 @@ public class assignment {
 		Thread.sleep(2000);
 
 		//change color
-		//driver.findElement(By.id("color_14")).click();
-		//Thread.sleep(2000); 
+		driver.findElement(By.id("color_14")).click();
+		Thread.sleep(2000); 
 
 
 		// add to cart
